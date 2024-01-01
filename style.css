@@ -4295,6 +4295,12 @@ img {
   #carousel2 img {
     height: 200px;
   }
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
 }
 .border12 {
   border-style: solid;
