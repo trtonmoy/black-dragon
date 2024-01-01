@@ -18,7 +18,7 @@
 }
 
 @font-face {
-  font-family:custom;
+  font-family: custom;
   src: url(./cydonia-century-cdnfonts/cydoniacentury.ttf);
 }
 
@@ -138,10 +138,8 @@ h1.entry-title {
   .elementor-item {
   color: #ffffff;
   fill: #ffffff;
-  font-family: 'custom2';
+  font-family: "custom2";
 }
-
-
 
 .elementor-417
   .elementor-element.elementor-element-9b2f732
@@ -821,7 +819,7 @@ h1.entry-title {
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-color: transparent;
-  background-image:linear-gradient(250deg, #CD8DAA 0%, #f996a6c4 80%);
+  background-image: linear-gradient(250deg, #ab20fd 0%, #ab20fd 80%);
 }
 
 .elementor-417 .elementor-element.elementor-element-b3192e6,
@@ -3772,11 +3770,19 @@ body {
 
 @keyframes snowfall {
   0% {
-    transform: translate3d(var(--left-ini), 100vh, 0); /* Start at the bottom of the screen */
+    transform: translate3d(
+      var(--left-ini),
+      100vh,
+      0
+    ); /* Start at the bottom of the screen */
   }
 
   100% {
-    transform: translate3d(var(--left-end), -10vh, 0); /* Move upwards (adjust this value as needed) */
+    transform: translate3d(
+      var(--left-end),
+      -10vh,
+      0
+    ); /* Move upwards (adjust this value as needed) */
   }
 }
 
@@ -4059,22 +4065,18 @@ body {
   animation-delay: -7s;
 }
 
-
 /* Style for the image gallery */
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
- 
 
 .row {
   display: flex;
   background-color: transparent;
   background-image: linear-gradient(250deg, #e77aab 0%, #f86b82c4 80%);
-
 }
-
 
 .column {
   width: 25%; /* 4 columns in a row */
@@ -4085,25 +4087,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* added small blur every 6 snowflakes*/
 /* .snowflake:nth-child(2n) {
@@ -4122,7 +4106,6 @@ img {
   p,
   .et_pb_button_module_wrapper {
     text-align: center;
-    
   }
 }
 
@@ -4316,7 +4299,7 @@ img {
 .border12 {
   border-style: solid;
   border-width: 0px 3px 3px 3px;
-  border-color: #E852BC;
+  border-color: #e852bc;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   border-radius: 0px 0px 20px 20px;
   z-index: 1000000000000;
