@@ -4075,7 +4075,7 @@ body {
 .row {
   display: flex;
   background-color: transparent;
-  background-image: linear-gradient(250deg, #e77aab 0%, #f86b82c4 80%);
+  background-image: linear-gradient(250deg, #8152e8 0%, #aa6bf8c4 80%);
 }
 
 .column {
@@ -4305,7 +4305,7 @@ img {
 .border12 {
   border-style: solid;
   border-width: 0px 3px 3px 3px;
-  border-color: #e852bc;
+  border-color: #8152e8;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   border-radius: 0px 0px 20px 20px;
   z-index: 1000000000000;
